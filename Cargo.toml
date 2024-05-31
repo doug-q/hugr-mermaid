@@ -1,0 +1,16 @@
+[package]
+name = "hugr-mermaid"
+version = "0.1.0"
+edition = "2021"
+
+
+[features]
+sixel = ["viuer/sixel"]
+
+[dependencies]
+hugr-cli = "0.1.0"
+hugr = "0.5.0"
+viuer = "0.7.1"
+image = "0.24.7"
+clap = "4.5.4"
+tempfile = "3.10.1"
